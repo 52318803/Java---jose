@@ -1,0 +1,26 @@
+public class Empregado{
+    private float salario = 5000;
+    private String name;
+    private String endereco;
+
+    public void setName(String name)
+        //if (valor.isEmpty()){
+            //System.out.println("Erro");
+            //throw new Exception();  //para não dar erro, para de rodar 
+            valor = name;
+        }
+
+    public getName(){
+        return name;
+    }
+
+    public void setSalario(float valor) { //qlqr um acessa | não retorna | 
+        salario = valor;
+    }
+
+    public float getSalario() {
+        return salario;
+    }
+
+
+}
